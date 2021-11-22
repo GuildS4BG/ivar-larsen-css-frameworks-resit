@@ -1,0 +1,39 @@
+.card-title {
+    background-color: rgba(51, 51, 51, 0.76);
+    color: white;
+    max-width: 256px;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+}
+.card-text {
+    background-color: rgba(255, 255, 255, 0.64);
+    max-width: max-content;
+    padding: 30px 50px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.card {
+    border: none!important;
+    margin-bottom: 50px;
+}
+
+.card-header {
+    background-color: $primary!important;
+}
+.header-card {
+    margin-bottom: 0px;
+
+}
+h2 {
+    margin: 0;
+    padding: 5px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .card-text{ display: none; }
+  }
+  @media screen and (min-width: 768px) {
+    .card-text{ display: block; }
+  }

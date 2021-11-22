@@ -1,0 +1,23 @@
+.navbar-brand {
+    font-family: "Gentium Book Basic", sans-serif;
+    font-size: 36px!important;
+}
+
+.navbar {
+    background-color: #fff !important;
+    color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: "Archivo Narrow", sans-serif;
+    font-size: 15;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: $primary!important
+}
+
+.navbar-collapse {
+    z-index: 1;
+}

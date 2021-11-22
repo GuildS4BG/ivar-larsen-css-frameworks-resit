@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+}
+
+body{
+    background: $background-colour!important;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 5px;
+}
+
+footer i {
+    color: $background-colour;
+}
+
+.wrapper {
+    flex: 1 0 auto;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .footer__copy{ order: 3};
+  }
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .footer__contanct{ order: 1};
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .footer__some{ order: 2};
+}
